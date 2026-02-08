@@ -113,6 +113,7 @@ section {
 
 .box-inner {
   padding: 16px;
+  padding-bottom: 20px;
 }
 
 .bbar {
@@ -136,11 +137,20 @@ section {
 }
 
 
-#title,
+#title .row,
 .quotebox {
   background-color: #b23f82;
   color: mistyrose;
 
+}
+
+#title .row {
+  padding: 20px;
+  padding-top: 24px;
+}
+
+#title h1 {
+  margin-top: -4px;
 }
 
 .quotebox {
@@ -167,15 +177,17 @@ section {
 /* IMAGES + ASIDES */
 
 .code {
-  background-color: #b23f82;
+  background-color: black;
+  border: 1px dashed mistyrose;
   color: mistyrose;
   font-family: monospace;
-  font-size: 10px;
+  font-size: 9.5px;
   padding: 10px;
   max-width: 220px;
   height: auto;
   text-transform: none !important;
 }
+
 
 button {
   background-color: #b23f82;
@@ -228,8 +240,6 @@ iframe {
 
 
 
-
-
 /* TYPOGRAPHY */
 
 h1,
@@ -256,8 +266,8 @@ li {
 li::before {
   content: "⁕ ";
   /* Insert content that looks like bullets */
-  margin-left: -24px;
-  padding-right: 8px;
+  margin-left: -20px;
+  padding-right: 4px;
   /*   color: blue; /* Or a color you prefer */
   */
 }
